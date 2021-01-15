@@ -1,0 +1,121 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#logo{
+    padding:0rem;
+    margin: 0rem;
+}
+
+#logo img{
+    margin: 0.1875rem 0rem;
+}
+
+#navbar ul li a{
+    padding: 0rem 0.5625rem;
+    margin-bottom: 0.875rem;
+    padding-bottom: 0.25rem
+}
+
+#navbar ul li a:hover{
+    transform: scale(1.1);
+}
+
+/* Home Section */
+#home{
+    height: 20.625rem ;
+    padding: 0.1875rem 0rem;
+    z-index: -222121;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+#home::before{
+    height: 26.875rem;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+/* Services Section */
+
+#services{
+    flex-direction: column;
+    margin: 0rem;
+    height: auto;
+}
+
+#services .box{
+    margin: 0.625rem;
+    padding: 0rem;
+}
+
+#services .box img{
+    margin: 0rem auto;
+    padding: 0rem;
+    height: 3.75rem;
+}
+
+/* Clients Section */
+
+#client-section{
+    height: auto;
+    margin-top: 1.5625rem;
+}
+
+#client-section::before{
+    height: 75rem;
+}
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: auto;
+    height: 4.125rem;
+    padding: 0.125rem 0.5rem;
+}
+
+#sponsors{
+    flex-wrap: wrap;
+}
+
+.sponsor-item{
+    margin: 0rem;
+    padding: 0rem 1.875rem;
+}
+
+#sponsor-item img{
+    width: 4.125rem;
+    height: auto;
+}
+
+/* Contact us section */
+#contact-section{
+    height: auto;
+}
+
+/* Footer */
+
+
+/* Utility classes */
+.h-primary{
+    font-size: 48px;
+}
+
+.btn{
+    font-size: 0.625rem;
+}
